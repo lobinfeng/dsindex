@@ -3,8 +3,69 @@
 <head>
 	<meta charset="UTF-8">
 	<title>某电商网站首页</title>
+	<link rel="stylesheet" type="text/css" href="../node_modules/normalize.css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="assets/style/header.less">
+	<link rel="stylesheet" href="assets/style/index.less">
+	<link rel="stylesheet" href="assets/style/footer.less">
 </head>
 <body>
-	
+	<header>
+		<div class="header-top">
+			<ul class="header-top-left">
+				<li><span class="icon-favor"></span><a href="#">寿安山健康城</a></li>
+				<li><span class="icon-cellphone"></span><a href="#">手机版</a></li>
+			</ul>
+			<ul class="header-top-right">
+				<li>您好，欢迎来寿安山健康城！</li>
+				<li><a href="#" class="org">[请登录]</a></li>
+				<li><a href="#">[免费注册]</a></li>
+				<li><a href="#">用户中心</a></li>
+				<li><a href="#">我的订单</a></li>
+				<li><a href="#">帮助中心</a></li>
+			</ul>
+		</div>
+		<div class="header-center">
+			<div class="logo"><a href="#"><img src="assets/img/logo-header.png?_inline" alt="网站logo">网站logo</a></div>
+			<div class="search-box">
+				<div class="serach">
+					<input type="text" />
+					<button>搜索</button>
+				</div>
+				<ul class="hot-word">
+					<li>热门搜索：</li>
+					<li><a href="#">呼吸机</a></li>
+					<li><a href="#">轮椅</a></li>
+					<li><a href="#">制氧机</a></li>
+					<li><a href="#">血压计</a></li>
+				</ul>
+			</div>
+			<a href="#" class="goods-car">
+				<span class="icon-car"></span>
+				<span>去购物车结算</span>
+				<span class="icon-regdown"></span>
+			</a>
+		</div>
+		<!--
+			header-conter-ended
+		-->
+		<nav class="navbar">
+			<div class="all-cats">
+				<h2>全部商品分类<span class="icon-drop"></span></h2>
+				<div class="cats-content">
+					
+				</div>
+			</div>
+			<ul class="nav">
+				<li><a href="#">首页</a></li>
+				<li><a href="#">家用健康器械</a></li>
+				<li><a href="#">保健品</a></li>
+				<li><a href="#">健康食品</a></li>
+				<li><a href="#">复合养生套装</a></li>
+				<li><a href="#">团购热销<span class="icon-hot index-nav-hot-icon">团购热销</span></a></li>
+				<li><a href="#">寿安山养生会</a></li>
+				<li><a href="#">关于我们</a></li>
+			</ul>
+		</nav>
+	</header>
 </body>
 </html>
